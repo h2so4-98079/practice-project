@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My practice session - 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2 id = "01"> Hello there! </h2>    
+    <h2 id = "02"> This is going to change, maybe. </h2>    
+    <p id = "demo"> Something will be displayed here. </p>
+    <script>
+        /*$(document).ready(function() {
+            var myElement = $("#02");
+            myElement.text("Hello Nirav!");
+            var id01 = $("#01");
+            $('#demo').text(id01.text());
+        });*/
+
+        /*var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if(this.readyState == 4 && this.status == 200){
+                var myObj = JSON.parse(this.responseText);
+                document.getElementById('demo').innerHTML = myObj.name;
+            }
+        };
+        xmlhttp.open("GET", "w3schools.com/js/json_demo.txt", true);
+        xmlhttp.send();*/
+        /*var txt = '[ "Ford", "BMW", "Audi", "Fiat" ]';
+        var myObj = JSON.parse(txt);
+        document.getElementById('demo').innerHTML = myObj[0];*/
+        /*var text = '{ "name":"John", "age":"function () {return 30;}", "city":"New York"}';
+        var obj = JSON.parse(text);
+        obj.age = eval("(" + obj.age + ")");
+
+        document.getElementById("demo").innerHTML = obj.name + ", " + obj.age();*/
+
+        /*var text = '{ "name":"John", "age":30, "city":"New York" }';
+        var obj = JSON.parse(text);
+        // document.getElementById('demo').innerHTML = obj.name + ", " + obj.age;
+        var jsonStr = JSON.stringify(obj);
+
+        document.getElementById('demo').innerHTML = jsonStr;*/
+        /*myObj = {
+            "name":"John",
+            "age":30,
+            "cars": {
+                "car1":"Ford",
+                "car2":"BMW",
+                "car3":"Fiat"
+            }
+        };
+        var txt = JSON.stringify(myObj);
+        var obj = JSON.parse(txt);
+        var carObj = JSON.parse(obj.cars);
+        document.getElementById('demo').innerHTML = carObj.car1;*/
+
+        /*var txt = ["one", "two", "three"];
+        var x = "", i;
+        for(i in txt){
+            x += " " + txt[i];
+        }
+        document.getElementById('demo').innerHTML = x;*/
+
+        /*var obj = $("#id01");
+        var txt = obj[0].innerHTML;
+        document.getElementById('id02').innerHTML = txt;*/
+
+
+    </script>
+</body>
+</html>
